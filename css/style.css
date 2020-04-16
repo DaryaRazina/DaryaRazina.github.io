@@ -1,0 +1,66 @@
+/* Типографика */
+.title_gray{
+    color: #3e3362;
+    font-family: "Raleway - Semi Bold";
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+}
+
+.title_white{
+    color: #ffffff;
+    font-family: "Raleway - Semi Bold";
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.18px;
+}
+
+.description_gray{
+    color: #3e3362;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+}
+
+.description_white{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+}
+
+/* Первый экран */
+#intro{
+    height: 769px;
+    background-image: url("../img/1intro/bg_intro.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#logo{
+    padding-top: 26px;
+}
+
+#intro_title{
+    padding-top: 107px;
+}
+
+#intro_subtitle{
+    padding-top: 32px;
+}
+
+h1{
+    color: #ffffff;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 11px;
+
+    margin: 0px;
+}
+
+#intro_arrow{
+padding-top: 290px;
+}
