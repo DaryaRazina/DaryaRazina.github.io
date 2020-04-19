@@ -1,34 +1,44 @@
 /* Типографика */
 .title_gray{
     color: #3e3362;
-    font-family: "Raleway - Semi Bold";
+    font-family: "Raleway";
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.18px;
+    text-align: center;
+
+    margin: 0px;
 }
 
 .title_white{
     color: #ffffff;
-    font-family: "Raleway - Semi Bold";
+    font-family: "Raleway";
     font-size: 21px;
-    font-weight: 400;
+    font-weight: 600;
     letter-spacing: 0.18px;
+
+    margin: 0px;
 }
 
 .description_gray{
     color: #3e3362;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
+    line-height: 25.33px;
+
+    margin: 0px;
 }
 
 .description_white{
     color: #ffffff;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 0.7px;
+
+    margin: 0px;
 }
 
 /* Первый экран */
@@ -37,23 +47,24 @@
     background-image: url("../img/1intro/bg_intro.jpg");
     background-size: cover;
     background-position: center;
+
 }
 
 #logo{
-    padding-top: 26px;
+    margin-top: 26px;
 }
 
 #intro_title{
-    padding-top: 107px;
+    margin-top: 107px;
 }
 
 #intro_subtitle{
-    padding-top: 32px;
+    margin-top: 32px;
 }
 
 h1{
     color: #ffffff;
-    font-family: Raleway;
+    font-family: "Raleway";
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 11px;
@@ -62,5 +73,134 @@ h1{
 }
 
 #intro_arrow{
-padding-top: 290px;
+    margin-top: 290px;
+}
+
+/* Второй экран - information  */
+#info{
+    height: 425px;
+    background-color: #f7f9fa;
+    padding-top: 70px;
+    /* padding-bottom: 68px; */
+
+}
+
+.info_decor{
+    margin-top: 23px;
+}
+
+#info_text{
+    margin-top: 34px;
+    padding: 0px;
+}
+
+.info_button{
+    height: 48px;
+    border-radius: 2px;
+    border: 4px solid #3e3362;
+    background-color: #ffffff;
+
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    padding: 0px 50px;
+    margin-top: 65px;
+}
+
+.info_button:hover{
+    background-color: #3e3362;
+    color: #ffffff;
+}
+
+.info_button:focus{
+    box-shadow: none;
+}
+
+/* Третий экран - about */
+#about{
+    height: 518px;
+    background-color: rgb(168, 162, 162);
+}
+
+.pic1{
+    background-image: url("../img/3about/bg-couple.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 517px;
+
+    padding-top: 160px;
+}
+
+.pic2{
+    background-image: url("../img/3about/bird.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 517px;
+
+}
+
+
+/* Четвертый экран - follow us */
+#follow{
+    height: 325px;
+    background-color: #f7f9fa;
+
+    padding-top: 60px;
+}
+
+#follow_decor{
+    margin-top: 20px;
+}
+
+#follow_text{
+    margin-top: 28px;
+    padding: 0px;
+}
+
+/* Пятый экран - gallery */
+#gallery{
+    height: 1032px;
+    background-color: #9c9d9e;
+
+}
+
+/* Шестой экран - join us */
+#join{
+    height: 446px;
+    background-color: #f7f9fa;
+
+    padding-top: 70px;
+}
+
+#join_text{
+    margin-top: 28px;
+    padding: 0px;
+}
+
+.join_button{
+    height: 48px;
+    border-radius: 2px;
+    border: 4px solid #3e3362;
+    background-color: #ffffff;
+
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    padding: 0px 45px;
+    margin-top: 52px;
+}
+
+.join_button:hover{
+    background-color: #3e3362;
+    color: #ffffff;
+}
+
+.join_button:focus{
+    box-shadow: none;
 }
