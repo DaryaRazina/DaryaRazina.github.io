@@ -16,6 +16,7 @@
     font-size: 21px;
     font-weight: 600;
     letter-spacing: 0.18px;
+    text-align: center;
 
     margin: 0px;
 }
@@ -43,10 +44,12 @@
 
 /* Первый экран */
 #intro{
-    height: 769px;
+    /* height: 769px; */
+    height: 100vh;
     background-image: url("../img/1intro/bg_intro.jpg");
     background-size: cover;
     background-position: center;
+    padding-bottom: 98px;
 
 }
 
@@ -77,12 +80,12 @@ h1{
 }
 
 /* Второй экран - information  */
+
 #info{
     height: 425px;
     background-color: #f7f9fa;
     padding-top: 70px;
     /* padding-bottom: 68px; */
-
 }
 
 .info_decor{
@@ -96,6 +99,7 @@ h1{
 
 .info_button{
     height: 48px;
+    width: 196px;
     border-radius: 2px;
     border: 4px solid #3e3362;
     background-color: #ffffff;
@@ -106,7 +110,6 @@ h1{
     font-weight: 600;
     letter-spacing: 0.9px;
 
-    padding: 0px 50px;
     margin-top: 65px;
 }
 
@@ -121,7 +124,7 @@ h1{
 
 /* Третий экран - about */
 #about{
-    height: 518px;
+    height: 517px;
     background-color: rgb(168, 162, 162);
 }
 
@@ -132,14 +135,21 @@ h1{
     height: 517px;
 
     padding-top: 160px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 .pic2{
-    background-image: url("../img/3about/bird.jpg");
+    background-image: url("../img/3about/bg-bird.jpg");
     background-size: cover;
     background-position: center;
     height: 517px;
 
+}
+
+#about_text{
+    padding-right: 18%;
+    padding-left: 35%;
 }
 
 
@@ -173,6 +183,7 @@ h1{
     background-color: #f7f9fa;
 
     padding-top: 70px;
+    position: relative;
 }
 
 #join_text{
@@ -182,6 +193,7 @@ h1{
 
 .join_button{
     height: 48px;
+    width: 156px;
     border-radius: 2px;
     border: 4px solid #3e3362;
     background-color: #ffffff;
@@ -192,7 +204,7 @@ h1{
     font-weight: 600;
     letter-spacing: 0.9px;
 
-    padding: 0px 45px;
+    /* padding: 0px 45px; */
     margin-top: 52px;
 }
 
@@ -203,4 +215,89 @@ h1{
 
 .join_button:focus{
     box-shadow: none;
+}
+
+/* Седьмой экран - map */
+#map{
+    height: 385px;
+    background-image: url("../img/7map/bg-map.jpg");
+    background-size: cover;
+    background-position: center;
+
+    padding-top: 92px;
+}
+
+.map_button{
+    height: 48px;
+    width: 156px;
+    border-radius: 2px;
+    border: 4px solid #ffffff;
+    background-color: none;
+
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    /* padding: 0px 45px; */
+    margin-top: 44px;
+}
+
+.map_button:hover{
+    background-color: #fdfdfd;
+    color: #3e3362;
+}
+
+.map_button:focus{
+    box-shadow: none;
+}
+
+#map_text{
+    padding-top: 42px;
+}
+
+.decor_align{
+    position: absolute;
+    left: 50.25%;
+    top: 96%;
+}
+
+/* Футер */
+footer{
+    height: 102px;
+    background-color: #2b2344;
+    padding-top: 20px;
+}
+
+
+/* i{
+    padding-left: 22px;
+} */
+
+
+/* a i{
+    padding-left: 22px;
+    color: #ffffff;
+    font-size: 29px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+a i:hover{
+    color: #ffffff;
+    opacity: 1;
+} */
+
+.sm_icon {
+    padding-left: 22px;
+    color: #ffffff;
+    font-size: 29px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.sm_icon:hover{
+    color: #ffffff;
+    opacity: 1;
 }
