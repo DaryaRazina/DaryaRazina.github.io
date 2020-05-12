@@ -33,36 +33,38 @@
 
             <div class="row" id="intro_arrow">
                 <div class="col-lg-12 text-center">
-                    <img src="img/1intro/down_arrow.png" alt="Стрелка вниз">
+                    <a href="#information"><img src="img/1intro/down_arrow.png" alt="Стрелка вниз"></a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Второй экран - information -->
-    <section id="info">
-        <div class="container">
-            <h3 class="title_gray">&#9644; &nbsp; We are going to another horizonts &nbsp; &#9644;</h3>
+    <a name="information">
+        <section id="info">
+    </a>
+    <div class="container">
+        <h3 class="title_gray">&#9644; &nbsp; We are going to another horizonts &nbsp; &#9644;</h3>
 
-            <div class="row info_decor">
-                <div class="col-lg-12 text-center">
-                    <img src="img/2info/icon_rectangles.png" alt="Декор">
-                </div>
+        <div class="row info_decor">
+            <div class="col-lg-12 text-center">
+                <img src="img/2info/icon_rectangles.png" alt="Декор">
             </div>
-
-            <div class="row justify-content-center" id="info_text">
-                <div class="col-lg-6 text-center p-0">
-                    <p class="description_gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
-                </div>
-            </div>
-
-            <div class="text-center">
-                <button type="button" class="btn info_button">Read more</button>
-            </div>
-
         </div>
+
+        <div class="row justify-content-center" id="info_text">
+            <div class="col-lg-6 text-center p-0">
+                <p class="description_gray">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <button type="button" class="btn info_button">Read more</button>
+        </div>
+
+    </div>
     </section>
 
     <!-- Третий экран - about -->
@@ -70,11 +72,17 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-6 text-center pic1">
-                    <h3 class="title_white">&#9644; &nbsp; David & Hope &nbsp; &#9644;</h3>
+                    <div id="about_content" class="ml-auto">
+                        <h3 class="title_white">&#9644; &nbsp; David & Hope &nbsp; &#9644;</h3>
 
-                    <p class="description_white" id="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                        veniam, quis.</p>
+                        <p id="about_subtitle">UI Designer and Photographer</p>
+
+                        <p class="description_white" id="about_text">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                            veniam, quis.</p>
+
+                    </div>
+
                 </div>
                 <div class="col-lg-6 pic2"></div>
             </div>
@@ -105,6 +113,54 @@
 
     <!-- Пятый экран - gallery -->
     <section id="gallery">
+        <div class="container_fluid">
+            <div class="row">
+
+                <!-- Правая сторона - две картинки -->
+                <div class="col-lg-5">
+                    <div class="row">
+                        <!-- Блок 1 - заголовок и текст -->
+                        <div class="col-lg-12" id="test1">
+                            <div id="gallery_desc">
+                                <h3 class="title_white">&#9644; &nbsp; Inside the mystic forest &nbsp; &#9644;</h3>
+
+                                <p class="description_white" id="gallery_text1">Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing
+                                    elit, sed do eiusmod tempor incididunt ut labore et.</p>
+
+                            </div>
+
+                        </div>
+                        <!-- Блок 2 - гора с туманом -->
+                        <div class="col-lg-12" id="test2"></div>
+                    </div>
+
+                </div>
+
+                <!-- Левая сторона - три картинки -->
+                <div class="col-lg-7">
+                    <div class="row">
+                        <!-- Блок 3 - костер -->
+                        <div class="col-lg-12" id="test3"></div>
+                        <!-- Блок 4 - озеро -->
+                        <div class="col-lg-6" id="test4"></div>
+                        <!-- Блок 5 - с кнопкой -->
+                        <div class="col-lg-6" id="test5">
+                            <h3 class="title_gray">&#9644; &nbsp; Night with fires &nbsp; &#9644;</h3>
+
+                            <p class="description_gray" id="block5_text">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna.</p>
+
+                            <div class="text-center">
+                                <button type="button" class="btn gallery_button">See all</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -138,17 +194,13 @@
                 </div>
             </div>
         </div>
-
-
     </section>
 
     <!-- Седьмой экран - map -->
     <section id="map">
         <div class="container">
 
-
-
-            <h3 class="title_white">&#9644; &nbsp; We need you questions, so write to us! &nbsp; &#9644;</h3>
+            <h3 class="title_white">&#9644; &nbsp; We need your questions, so write to us! &nbsp; &#9644;</h3>
 
             <div class="row justify-content-center" id="map_text">
                 <div class="col-lg-4 text-center p-0">

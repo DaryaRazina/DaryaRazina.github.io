@@ -49,12 +49,15 @@
     background-image: url("../img/1intro/bg_intro.jpg");
     background-size: cover;
     background-position: center;
+    
+    position: relative;
+    padding-top: 26px;
     padding-bottom: 98px;
 
 }
 
 #logo{
-    margin-top: 26px;
+    /* margin-top: 26px; */
 }
 
 #intro_title{
@@ -75,17 +78,25 @@ h1{
     margin: 0px;
 }
 
-#intro_arrow{
+/* #intro_arrow{
     margin-top: 290px;
+} */
+
+#intro_arrow{
+    position: absolute;
+    bottom: 13%;
+    left: 50%;
 }
+
+
 
 /* Второй экран - information  */
 
 #info{
-    height: 425px;
+    /* height: 425px; */
     background-color: #f7f9fa;
     padding-top: 70px;
-    /* padding-bottom: 68px; */
+    padding-bottom: 68px;
 }
 
 .info_decor{
@@ -124,7 +135,7 @@ h1{
 
 /* Третий экран - about */
 #about{
-    height: 517px;
+    /* height: 517px; */
     background-color: rgb(168, 162, 162);
 }
 
@@ -147,18 +158,38 @@ h1{
 
 }
 
+#about_content{
+    width: 570px;
+    padding-right: 11%;
+    padding-left: 11%;
+    /* margin-right: 0px; */
+}
+
+#about_subtitle{
+    color: #ffffff;
+    opacity: 0.2;
+    font-family: "Raleway";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    text-align: center;
+
+    margin: 0px;
+    padding-top: 21px;
+}
+
 #about_text{
-    padding-right: 18%;
-    padding-left: 35%;
+    padding-top: 53px;
 }
 
 
 /* Четвертый экран - follow us */
 #follow{
-    height: 325px;
+    /* height: 325px; */
     background-color: #f7f9fa;
 
     padding-top: 60px;
+    padding-bottom: 100px;
 }
 
 #follow_decor{
@@ -172,17 +203,99 @@ h1{
 
 /* Пятый экран - gallery */
 #gallery{
-    height: 1032px;
-    background-color: #9c9d9e;
+    background-color: #3e3362;
+}
 
+#test1{
+    background-image: url("../img/5gallery/bg-forest.jpg");
+    background-size: cover;
+    background-position: center; 
+    height: 487px;
+}
+
+#gallery_desc{
+    padding-top: 184px;
+    text-align: center;
+}
+
+#gallery_text1{
+    padding-top: 44px;
+    padding-left: 27%;
+    padding-right: 27%;
+    
+}
+
+#test2{
+    background-image: url("../img/5gallery/mountain.jpg");
+    background-size: cover;
+    background-position: center;   
+    height: 545px;
+
+    
+}
+
+#test3{
+    background-image: url("../img/5gallery/fire.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 661px;
+
+}
+
+#test4{
+    background-image: url("../img/5gallery/lake.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 371px;
+
+}
+
+#test5{
+    background-color: #f7f9fa;
+    height: 371px;
+
+    padding-top: 110px;
+}
+
+#block5_text{
+    text-align: center;
+    padding-top: 28px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.gallery_button{
+    height: 47px;
+    width: 157px;
+    border-radius: 2px;
+    border: 4px solid #3e3362;
+    background-color: #ffffff;
+
+    color: #3e3362;
+    font-family: "Raleway";
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0.9px;
+
+    margin-top: 37px;
+}
+
+.gallery_button:hover{
+    background-color: #3e3362;
+    color: #ffffff;
+}
+
+.gallery_button:focus{
+    box-shadow: none;
 }
 
 /* Шестой экран - join us */
 #join{
-    height: 446px;
+    /* height: 446px; */
     background-color: #f7f9fa;
 
     padding-top: 70px;
+    padding-bottom: 109px;
     position: relative;
 }
 
@@ -219,12 +332,13 @@ h1{
 
 /* Седьмой экран - map */
 #map{
-    height: 385px;
+    /* height: 385px; */
     background-image: url("../img/7map/bg-map.jpg");
     background-size: cover;
     background-position: center;
 
     padding-top: 92px;
+    padding-bottom: 96px;
 }
 
 .map_button{
@@ -259,15 +373,16 @@ h1{
 
 .decor_align{
     position: absolute;
-    left: 50.25%;
+    left: 50.33%;
     top: 96%;
 }
 
 /* Футер */
 footer{
-    height: 102px;
+    /* height: 102px; */
     background-color: #2b2344;
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 
