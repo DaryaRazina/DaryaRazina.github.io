@@ -60,6 +60,8 @@
     /* margin-top: 26px; */
 }
 
+
+
 #intro_title{
     margin-top: 107px;
 }
@@ -78,9 +80,6 @@ h1{
     margin: 0px;
 }
 
-/* #intro_arrow{
-    margin-top: 290px;
-} */
 
 #intro_arrow{
     position: absolute;
@@ -136,7 +135,7 @@ h1{
 /* Третий экран - about */
 #about{
     /* height: 517px; */
-    background-color: rgb(168, 162, 162);
+    background-color: #f7f9fa;
 }
 
 .pic1{
@@ -162,7 +161,7 @@ h1{
     width: 570px;
     padding-right: 11%;
     padding-left: 11%;
-    /* margin-right: 0px; */
+    margin-left: auto;
 }
 
 #about_subtitle{
@@ -204,7 +203,8 @@ h1{
 /* Пятый экран - gallery */
 #gallery{
     background-color: #3e3362;
-}
+ }
+
 
 #test1{
     background-image: url("../img/5gallery/bg-forest.jpg");
@@ -247,7 +247,7 @@ h1{
     background-size: cover;
     background-position: center;
     height: 371px;
-
+    /* margin: 0px; */
 }
 
 #test5{
@@ -255,6 +255,7 @@ h1{
     height: 371px;
 
     padding-top: 110px;
+    /* margin: 0px; */
 }
 
 #block5_text{
@@ -416,3 +417,16 @@ a i:hover{
     color: #ffffff;
     opacity: 1;
 }
+
+/* Медиа запросы */
+
+/* @media (max-width: 540px){
+    #about_content{
+        max-width: 500px;
+        /* padding: auto; */
+        padding-right: 11%;
+        padding-left: 11%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+} */
