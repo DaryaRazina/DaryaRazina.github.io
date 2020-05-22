@@ -42,10 +42,15 @@
     margin: 0px;
 }
 
+.my_container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* Первый экран */
 #intro{
-    /* height: 769px; */
-    height: 100vh;
+    height: 768px;
+    /* height: 100vh; */
     background-image: url("../img/1intro/bg_intro.jpg");
     background-size: cover;
     background-position: center;
@@ -55,12 +60,6 @@
     padding-bottom: 98px;
 
 }
-
-#logo{
-    /* margin-top: 26px; */
-}
-
-
 
 #intro_title{
     margin-top: 107px;
@@ -80,13 +79,11 @@ h1{
     margin: 0px;
 }
 
-
 #intro_arrow{
     position: absolute;
-    bottom: 13%;
+    bottom: 12%;
     left: 50%;
 }
-
 
 
 /* Второй экран - information  */
@@ -103,7 +100,7 @@ h1{
 }
 
 #info_text{
-    margin-top: 34px;
+    margin-top: 25px;
     padding: 0px;
 }
 
@@ -144,7 +141,7 @@ h1{
     background-position: center;
     height: 517px;
 
-    padding-top: 160px;
+    padding-top: 154px;
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -174,7 +171,7 @@ h1{
     text-align: center;
 
     margin: 0px;
-    padding-top: 21px;
+    padding-top: 17px;
 }
 
 #about_text{
@@ -187,16 +184,16 @@ h1{
     /* height: 325px; */
     background-color: #f7f9fa;
 
-    padding-top: 60px;
+    padding-top: 56px;
     padding-bottom: 100px;
 }
 
 #follow_decor{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 #follow_text{
-    margin-top: 28px;
+    margin-top: 20px;
     padding: 0px;
 }
 
@@ -210,7 +207,7 @@ h1{
     background-image: url("../img/5gallery/bg-forest.jpg");
     background-size: cover;
     background-position: center; 
-    height: 487px;
+    height: 486px;
 }
 
 #gallery_desc{
@@ -229,40 +226,37 @@ h1{
     background-image: url("../img/5gallery/mountain.jpg");
     background-size: cover;
     background-position: center;   
-    height: 545px;
-
-    
+    height: 543px;
 }
 
 #test3{
     background-image: url("../img/5gallery/fire.jpg");
     background-size: cover;
     background-position: center;
-    height: 661px;
-
+    height: 660px;
 }
 
 #test4{
     background-image: url("../img/5gallery/lake.jpg");
     background-size: cover;
     background-position: center;
-    height: 371px;
+    height: 369px;
     /* margin: 0px; */
 }
 
 #test5{
     background-color: #f7f9fa;
-    height: 371px;
+    height: 369px;
 
-    padding-top: 110px;
+    padding-top: 106px;
     /* margin: 0px; */
 }
 
 #block5_text{
     text-align: center;
-    padding-top: 28px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-top: 23px;
+    padding-left: 12%;
+    padding-right: 12%;
 }
 
 .gallery_button{
@@ -278,7 +272,7 @@ h1{
     font-weight: 600;
     letter-spacing: 0.9px;
 
-    margin-top: 37px;
+    margin-top: 35px;
 }
 
 .gallery_button:hover{
@@ -295,13 +289,13 @@ h1{
     /* height: 446px; */
     background-color: #f7f9fa;
 
-    padding-top: 70px;
-    padding-bottom: 109px;
+    padding-top: 67px;
+    padding-bottom: 108px;
     position: relative;
 }
 
 #join_text{
-    margin-top: 28px;
+    margin-top: 24px;
     padding: 0px;
 }
 
@@ -318,8 +312,7 @@ h1{
     font-weight: 600;
     letter-spacing: 0.9px;
 
-    /* padding: 0px 45px; */
-    margin-top: 52px;
+    margin-top: 48px;
 }
 
 .join_button:hover{
@@ -338,7 +331,7 @@ h1{
     background-size: cover;
     background-position: center;
 
-    padding-top: 92px;
+    padding-top: 87px;
     padding-bottom: 96px;
 }
 
@@ -375,14 +368,14 @@ h1{
 .decor_align{
     position: absolute;
     left: 50.33%;
-    top: 96%;
+    top: 97%;
 }
 
 /* Футер */
 footer{
     /* height: 102px; */
     background-color: #2b2344;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-bottom: 50px;
 }
 
@@ -406,9 +399,9 @@ a i:hover{
 } */
 
 .sm_icon {
-    padding-left: 22px;
+    padding-left: 24px;
     color: #ffffff;
-    font-size: 29px;
+    font-size: 27px;
     opacity: 0.7;
     text-decoration: none;
 }
@@ -424,9 +417,9 @@ a i:hover{
     #about_content{
         max-width: 500px;
         /* padding: auto; */
-        padding-right: 11%;
+        /* padding-right: 11%;
         padding-left: 11%;
         margin-left: auto;
         margin-right: auto;
     }
-} */
+} */ 
