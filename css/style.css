@@ -42,15 +42,10 @@
     margin: 0px;
 }
 
-.my_container{
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
 /* Первый экран */
 #intro{
-    height: 768px;
-    /* height: 100vh; */
+    /* height: 768px; */
+    height: 100vh;
     background-image: url("../img/1intro/bg_intro.jpg");
     background-size: cover;
     background-position: center;
@@ -58,7 +53,10 @@
     position: relative;
     padding-top: 26px;
     padding-bottom: 98px;
+}
 
+#logo{
+    margin-left: -15px;
 }
 
 #intro_title{
@@ -75,6 +73,7 @@ h1{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 11px;
+    line-height: 1.5;
 
     margin: 0px;
 }
@@ -85,9 +84,7 @@ h1{
     left: 50%;
 }
 
-
 /* Второй экран - information  */
-
 #info{
     /* height: 425px; */
     background-color: #f7f9fa;
@@ -104,7 +101,7 @@ h1{
     padding: 0px;
 }
 
-.info_button{
+#info_button{
     height: 48px;
     width: 196px;
     border-radius: 2px;
@@ -120,12 +117,12 @@ h1{
     margin-top: 65px;
 }
 
-.info_button:hover{
+#info_button:hover{
     background-color: #3e3362;
     color: #ffffff;
 }
 
-.info_button:focus{
+#info_button:focus{
     box-shadow: none;
 }
 
@@ -135,7 +132,7 @@ h1{
     background-color: #f7f9fa;
 }
 
-.pic1{
+#pic1{
     background-image: url("../img/3about/bg-couple.jpg");
     background-size: cover;
     background-position: center;
@@ -146,12 +143,11 @@ h1{
     padding-right: 0px;
 }
 
-.pic2{
+#pic2{
     background-image: url("../img/3about/bg-bird.jpg");
     background-size: cover;
     background-position: center;
     height: 517px;
-
 }
 
 #about_content{
@@ -202,8 +198,7 @@ h1{
     background-color: #3e3362;
  }
 
-
-#test1{
+#block1{
     background-image: url("../img/5gallery/bg-forest.jpg");
     background-size: cover;
     background-position: center; 
@@ -219,37 +214,34 @@ h1{
     padding-top: 44px;
     padding-left: 27%;
     padding-right: 27%;
-    
 }
 
-#test2{
+#block2{
     background-image: url("../img/5gallery/mountain.jpg");
     background-size: cover;
     background-position: center;   
     height: 543px;
 }
 
-#test3{
+#block3{
     background-image: url("../img/5gallery/fire.jpg");
     background-size: cover;
     background-position: center;
     height: 660px;
 }
 
-#test4{
+#block4{
     background-image: url("../img/5gallery/lake.jpg");
     background-size: cover;
     background-position: center;
     height: 369px;
-    /* margin: 0px; */
 }
 
-#test5{
+#block5{
     background-color: #f7f9fa;
     height: 369px;
 
     padding-top: 106px;
-    /* margin: 0px; */
 }
 
 #block5_text{
@@ -259,7 +251,7 @@ h1{
     padding-right: 12%;
 }
 
-.gallery_button{
+#gallery_button{
     height: 47px;
     width: 157px;
     border-radius: 2px;
@@ -275,12 +267,12 @@ h1{
     margin-top: 35px;
 }
 
-.gallery_button:hover{
+#gallery_button:hover{
     background-color: #3e3362;
     color: #ffffff;
 }
 
-.gallery_button:focus{
+#gallery_button:focus{
     box-shadow: none;
 }
 
@@ -299,7 +291,7 @@ h1{
     padding: 0px;
 }
 
-.join_button{
+#join_button{
     height: 48px;
     width: 156px;
     border-radius: 2px;
@@ -315,12 +307,12 @@ h1{
     margin-top: 48px;
 }
 
-.join_button:hover{
+#join_button:hover{
     background-color: #3e3362;
     color: #ffffff;
 }
 
-.join_button:focus{
+#join_button:focus{
     box-shadow: none;
 }
 
@@ -335,7 +327,7 @@ h1{
     padding-bottom: 96px;
 }
 
-.map_button{
+#map_button{
     height: 48px;
     width: 156px;
     border-radius: 2px;
@@ -352,12 +344,12 @@ h1{
     margin-top: 44px;
 }
 
-.map_button:hover{
+#map_button:hover{
     background-color: #fdfdfd;
     color: #3e3362;
 }
 
-.map_button:focus{
+#map_button:focus{
     box-shadow: none;
 }
 
@@ -365,9 +357,9 @@ h1{
     padding-top: 42px;
 }
 
-.decor_align{
+#decor_align{
     position: absolute;
-    left: 50.33%;
+    left: 49.33%;
     top: 97%;
 }
 
@@ -379,24 +371,9 @@ footer{
     padding-bottom: 50px;
 }
 
-
-/* i{
-    padding-left: 22px;
-} */
-
-
-/* a i{
-    padding-left: 22px;
-    color: #ffffff;
-    font-size: 29px;
-    opacity: 0.7;
-    text-decoration: none;
+#footer_icons{
+    text-align: right;
 }
-
-a i:hover{
-    color: #ffffff;
-    opacity: 1;
-} */
 
 .sm_icon {
     padding-left: 24px;
@@ -413,13 +390,182 @@ a i:hover{
 
 /* Медиа запросы */
 
-/* @media (max-width: 540px){
+/* Смартфоны - вертикальная ориентация */
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    /* Первый экран */
+    #logo{
+        padding-left: 15px;
+        margin-left: 0px;
+    }
+
+    #intro_img{
+        width: 300px;
+    }
+
+    span{
+        display: none;
+    }
+
+    /* Третий экран-about */
     #about_content{
-        max-width: 500px;
-        /* padding: auto; */
-        /* padding-right: 11%;
-        padding-left: 11%;
+        width: 315px;
+        padding-right: 0px;
+        padding-left: 0px;
         margin-left: auto;
         margin-right: auto;
     }
-} */ 
+
+    #pic2{
+        height: 400px;
+    }
+
+    /* Пятый экран - gallery */
+    #gallery_desc{
+        padding-top: 50%;
+    }
+
+    #gallery_text1, #block5_text{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    #block2, #block3, #block4{
+        height: 400px;
+    }
+
+    #block5{
+        padding-top: 25%;
+        border-bottom: 1px solid rgba(62, 51, 98, 0.2);
+    }
+
+    /* Футер */
+    .sm_icon{
+        padding-left: 20px;
+    }
+}
+
+/* Смартфоны - горизонтальная ориентация; планшеты */
+@media (min-width: 481px) and (max-width: 767px){
+    /* Первый экран */
+    #logo{
+        padding-left: 15px;
+        margin-left: 0px;
+    }
+
+    #intro_arrow{
+        display: none;
+    }
+
+    #intro_title{
+        margin-top: 10%;
+    }
+
+    #intro_img{
+        width: 460px;
+    }
+
+    /* Третий экран-about */
+    #about_content{
+        width: 400px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Пятый экран - gallery */
+    #gallery_desc{
+        padding-top: 20%;
+    }
+
+    #block1, #block2, #block3, #block4, #block5{
+        height: 400px;
+    }
+
+    #block5{
+        border-bottom: 1px solid rgba(62, 51, 98, 0.2);
+    }
+
+    /* Футер */
+    .sm_icon{
+        padding-left: 40px;
+    }
+}
+
+/* Планшеты - горизонтальная ориентация */
+@media (min-width: 768px) and (max-width: 1023px){
+
+    /* Первый экран */
+    #intro_title{
+        margin-top: 5%;
+    } 
+
+    #intro_img{
+        width: 460px;
+    }
+
+    /* Третий экран-about */
+    #about_content{
+        width: 500px;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Пятый экран - gallery */
+    #block1, #block2{
+        height: 400px;
+    }
+
+    #block4, #block5{
+        height: 400px;
+    }
+
+    #block5{
+        padding-top: 12%;
+    }
+
+    #gallery_desc{
+        padding-top: 30%;
+    }
+
+    #gallery_text1{
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    /* Футер */
+    .sm_icon{
+        padding-left: 40px;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 1024px){
+
+    #decor_align{
+        display: none;
+    }
+
+    /* Футер */
+    #footer_icons{
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    #footer_rights{
+        text-align: center;
+    }
+
+    .sm_icon:first-child{
+        padding-left: 0px;
+    }
+}
+
+@media (min-width: 1500px) {
+    #decor_align{
+        display: none;
+    }
+}
